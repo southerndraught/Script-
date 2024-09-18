@@ -3,13 +3,15 @@
 Member 1
 
 1. Entity Type - Salesman
+   
 (Own Introduction)
 
   We identified Salesman as a crucial entity in this database. In the real-world context, the Salesman entity could represent employees who interact directly with customers and handle product sales.
 
 
 Member 2
-2. Attributes of the Salesman Entity  
+
+Attributes of the Salesman Entity  
    After defining the entity, we listed its relevant attributes, which describe characteristics of the salesman, such as:  
    - Employee Name  
    - Contact Number  
@@ -21,13 +23,15 @@ Member 2
 
 
 Member 3
-3. Primary Key (PK) and Foreign Keys (FK)  
+
+Primary Key (PK) and Foreign Keys (FK)  
    - We designated Employee_ID as the primary key (PK). This ensures that each salesman can be uniquely identified in the system.  
    - We also introduced two foreign keys (FK): Branch_ID and Department_Name. These foreign keys establish relationships between the Salesman entity and the Branch and Department entities, ensuring data consistency across related entities.
 
 
 Member 4
-4. Entity Instances  
+
+Entity Instances  
    To provide examples, we created two instances of the Salesman entity:  
    - Ridley Z. Barnes with Employee ID 00325650, working in the Electronics department at Branch 00127.  
    - Ryan C. Montero with Employee ID 00329869, working in the Cosmetics department, also at Branch 00127.
@@ -36,6 +40,7 @@ Member 4
 
 
 Member 5
+
 Flowchart Explanation
 
    In addition to the ER diagram, we’ve also included a flowchart on the right side of the diagram, using Chen Notation Style. Let me explain the key shapes and their roles:
